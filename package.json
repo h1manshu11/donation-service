@@ -1,0 +1,28 @@
+{
+  "name": "donation-service",
+  "version": "1.0.0",
+  "description": "donation service code repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyankarajputttt/donation-service.git"
+  },
+  "author": "Priyanka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyankarajputttt/donation-service/issues"
+  },
+  "homepage": "https://github.com/priyankarajputttt/donation-service#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119",
+    "aws-lambda": "^1.0.7",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.405.0",
+    "mysql2": "^3.6.0"
+  }
+}

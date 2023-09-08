@@ -1,0 +1,9 @@
+# dependencies
+node_modules/
+package-lock.json
+
+#complied files
+dist/
+
+#ide files
+.DS_Store
